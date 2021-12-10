@@ -3,8 +3,17 @@
 #include <iostream>
 #include <string>
 
+#include "Day3.h"
+
 int main()
 {
+    int day3_part1 = 0;
+    int day3_part2 = 0;
+    Day3::Part1_2(day3_part1, day3_part2);
+    std::cout << "Day3 Part1: " << day3_part1 << std::endl;
+    std::cout << "Day3 Part2: " << day3_part2 << std::endl << std::endl;
+
+
     std::ifstream in("..\\input\\Day1_Input.txt");
     std::string line;
     int count = 0;
@@ -35,7 +44,7 @@ int main()
         iline3 = iline;
     }
 
-    std::cout << count << std::endl;
+    std::cout << "Day1 Part2: " << count << std::endl;
 
     return 0;
 }
