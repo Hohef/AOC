@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{7DBB6DB6-B5EE-4CB4-A516-1C193B3F2C6E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Day2CSharp</RootNamespace>
-    <AssemblyName>Day2CSharp</AssemblyName>
+    <RootNamespace>AOC21CSharp</RootNamespace>
+    <AssemblyName>AOC21CSharp</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Day2.cs" />
     <Compile Include="Day3.cs" />
+    <Compile Include="Day4.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
