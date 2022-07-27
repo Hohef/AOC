@@ -4,6 +4,7 @@
 #include <string>
 
 #include "Day3.h"
+#include "Day9.h"
 
 int main()
 {
@@ -13,7 +14,11 @@ int main()
     std::cout << "Day3 Part1: " << day3_part1 << std::endl;
     std::cout << "Day3 Part2: " << day3_part2 << std::endl << std::endl;
 
+    Day9::Part1_2(day3_part1, day3_part2);
+    //std::cout << "Day3 Part1: " << day3_part1 << std::endl;
+    std::cout << "Day9 Part2: " << day3_part2 << std::endl << std::endl;
 
+    return 0;
     std::ifstream in("..\\input\\Day1_Input.txt");
     std::string line;
     int count = 0;
